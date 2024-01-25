@@ -1,20 +1,25 @@
 # test_rich_diff
 Test github's rich diff feature
 
-<b> HTML is in here too </b>
+<b> HTML is in <i>here</i> too </b>
 
+* New bullet
 * Bullets
-* Bullet2
+* Bullet Modified
   * Nested bullet
+  * New nested
 
 Item | Price | # In stock
 ---|---|---
-Juicy Apples | 1.99 | 739
+Juicy Applez | 1.99 | 739
 Bananas | 1.89 | 6
+Bananas2 | 1.89 | 6
 
 This is a paragraph
 
 ```python
 def hello():
-    world()
+    world() # Comment
+
+hello()
 ``` 
